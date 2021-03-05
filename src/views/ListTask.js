@@ -10,7 +10,7 @@ class ListTask extends Component{
             list:[],
         }
     }
-    componentDidMount(){
+    /*componentDidMount(){
         var request = new Request('get',SHOW_TASK,{}, (response)=>{
             if(response.status==200){
                 this.setState({
@@ -19,24 +19,11 @@ class ListTask extends Component{
             }
             request.start();
         })  
-    }
+    }*/
     render(){
         return(
             <View>
-                <FlatList
-                    data={this.state.list}
-                    renderItem={({item})=>{
-                        <Item 
-                            name={item.name}
-                            path={item.path}
-                            id={item._id}
-                            ondelete={(id)=>{
-                                this.removeData(id);
-                            }} />
-                    }}
-                    keyExtractor={(item)=> item.id}
-                />
-
+                
             </View>
         )
     }

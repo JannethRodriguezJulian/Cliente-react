@@ -14,23 +14,7 @@ class App extends Component{
   constructor(props){
     super(props)
   }
-  /*HomeScreen(){
-    return (
-      <View>
-      <VectorIcons name="customerservice" size={50} color='#000000' />
-      <Text>Vista Home</Text>
-    </View>
-    )
-  }
-  SettingsScreen(){
-    return (
-      <View>
-      <VectorIcons name="addusergroup" size={50} color='#000000' />
-      <Text>Vista Settings</Text>
-    </View>
-    )
-  }*/
-
+  
   listTask(){
     return <ListTask/>
   }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+/*import React, { Component } from 'react'
 import { Text, View, StyleSheet, Image, Button } from 'react-native';
 
 class Item extends Component{
@@ -48,4 +48,4 @@ const styles=StyleSheet.create({
     }
 })
 
-export default Item;
+export default Item;*/
